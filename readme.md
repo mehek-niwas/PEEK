@@ -7,6 +7,7 @@ The implementation currently works for YOLOv5 and arbitrary Keras CNNs. More wil
 Currently, we provide a modified YOLOv5 implementation with the repo as well as a notebook demonstrating use of PEEK with YOLOv5.
 
 UPDATES:
+Notebook demo of PEEK used with a general CNN. Utilizes forward hooks ik PyTorch to store feature maps, then generates PEEK map corresponding to each convolutional layer 
 
 * Jan 2025: New notebook with a demo of PEEK used with a VGG16 image classifier pretrained on ImageNet (implemented in PyTorch), added sample images locally.
 
